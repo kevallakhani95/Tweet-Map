@@ -16,9 +16,26 @@ The application uses - (application workflow is in the presented order below)
 
 Finally, deployed the application on AWS Elastic Beanstalk and configured EC2 for deploying different components of the application.
 
-Application architechture - 
+**Application architecture** - 
 ![alt tag](http://i.imgur.com/ouIDUJT.png)
 
-Web application screenshot - 
+**Web application screenshot** - 
 
+![web_app screenshot](https://cloud.githubusercontent.com/assets/22873739/25308815/3fc12cb4-278b-11e7-9924-6c9578e779fc.png)
 
+The colors of the markers have been set to the sentiment the tweets belong to. 
+_Green_ - Positive tweet
+_Blue_ - Neutral tweet
+_Red_ - Negative tweet
+
+The sentiments are assigned to the tweets by the Monkey Learn Sentiment Analysis API. This is a machine learning API that you need to train with datasets in order to get an accurate result for the sentiment of a tweet. 
+
+To run the application - 
+1. Download the project.
+2. Change Twitter, AWS, Google Maps and MonkeyLearn API Keys.
+3. Run manage.py file -
+```
+$ python manage.py runserver
+```
+4. To stream new tweets run TwitterStreamer.py and SentimentAnalyzer.py locally.
+5. Access the application in browser --> http://localhost:8000
