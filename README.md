@@ -21,7 +21,7 @@ Finally, deployed the application on AWS Elastic Beanstalk and configured EC2 fo
 
 **Web application screenshot** - 
 
-![web_app screenshot](https://cloud.githubusercontent.com/assets/22873739/25308815/3fc12cb4-278b-11e7-9924-6c9578e779fc.png)
+![web_app screenshot](https://cloud.githubusercontent.com/assets/22873739/25308927/d8bea73c-278d-11e7-9318-8659fc3c6d4e.png)
 
 The colors of the markers have been set to the sentiment the tweets belong to: <br />
 _Green_ - Positive tweet <br />
