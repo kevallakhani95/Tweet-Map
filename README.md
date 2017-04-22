@@ -23,9 +23,9 @@ Finally, deployed the application on AWS Elastic Beanstalk and configured EC2 fo
 
 ![web_app screenshot](https://cloud.githubusercontent.com/assets/22873739/25308815/3fc12cb4-278b-11e7-9924-6c9578e779fc.png)
 
-The colors of the markers have been set to the sentiment the tweets belong to. 
-_Green_ - Positive tweet
-_Blue_ - Neutral tweet
+The colors of the markers have been set to the sentiment the tweets belong to: <br />
+_Green_ - Positive tweet <br />
+_Blue_ - Neutral tweet <br />
 _Red_ - Negative tweet
 
 The sentiments are assigned to the tweets by the Monkey Learn Sentiment Analysis API. This is a machine learning API that you need to train with datasets in order to get an accurate result for the sentiment of a tweet. 
